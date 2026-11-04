@@ -12,7 +12,7 @@ Bienvenido a **GameZone**, una página dedicada a los amantes de los videojuegos
 
 Mi objetivo es compartir información sobre videojuegos y descubrir nuevas aventuras.
 
-![Imagen de videojuegos](/assets/juegos.jpg)
+![Imagen de videojuegos]({{ '/assets/juegos.jpg' | relative_url }})
 
 ## 1. Tipos de videojuegos
 
@@ -35,13 +35,13 @@ Estos son algunos géneros populares:
 
 Este es un ejemplo de código en Python:
 
-\`\`\`python
+```python
 juego = "Minecraft"
 consola = "PC"
 
 print("Mi juego favorito es", juego)
 print("Juego en", consola)
-\`\`\`
+```
 
 ## 3. Enlaces interesantes
 
