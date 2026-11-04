@@ -3,4 +3,14 @@ layout: default
 title: Inicio
 ---
 
-<h1>{{ "Hello World!" | downcase }}</h1>
+<h1>Bienvenido a GameZone</h1>
+<p>Tu espacio dedicado al mundo de los videojuegos.</p>
+
+<h2>Entradas del blog</h2>
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
